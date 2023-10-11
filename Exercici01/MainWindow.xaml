@@ -1,0 +1,159 @@
+﻿<Window x:Class="Exercici01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercici01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> 8</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> 7</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> 6</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> 5</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> 4</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> 3</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> 2</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> 1</TextBlock>
+        
+        <TextBlock Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> A</TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> B</TextBlock>
+        <TextBlock Grid.Column="3" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> C</TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> D</TextBlock>
+        <TextBlock Grid.Column="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> E</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> F</TextBlock>
+        <TextBlock Grid.Column="7" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> G</TextBlock>
+        <TextBlock Grid.Column="8" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"> H</TextBlock>
+
+        <Button Grid.Column="1" Grid.Row="0" Background="White" Name="A8" Click="A8_Click"></Button>
+        <Button Grid.Column="2" Grid.Row="0" Background="Black" Name="B8" Click="B8_Click"></Button>
+        <Button Grid.Column="3" Grid.Row="0" Background="White" Name="C8" Click="C8_Click"></Button>
+        <Button Grid.Column="4" Grid.Row="0" Background="Black" Name="D8" Click="D8_Click"></Button>
+        <Button Grid.Column="5" Grid.Row="0" Background="White" Name="E8" Click="E8_Click"></Button>
+        <Button Grid.Column="6" Grid.Row="0" Background="Black" Name="F8" Click="F8_Click"></Button>
+        <Button Grid.Column="7" Grid.Row="0" Background="White" Name="G8" Click="G8_Click"></Button>
+        <Button Grid.Column="8" Grid.Row="0" Background="Black" Name="H8" Click="H8_Click"></Button>
+
+        <Button Grid.Column="1" Grid.Row="1" Background="Black" Name="A7" Click="A7_Click"></Button>
+        <Button Grid.Column="2" Grid.Row="1" Background="White" Name="B7" Click="B7_Click"></Button>
+        <Button Grid.Column="3" Grid.Row="1" Background="Black" Name="C7" Click="C7_Click"></Button>
+        <Button Grid.Column="4" Grid.Row="1" Background="White" Name="D7" Click="D7_Click"></Button>
+        <Button Grid.Column="5" Grid.Row="1" Background="Black" Name="E7" Click="E7_Click"></Button>
+        <Button Grid.Column="6" Grid.Row="1" Background="White" Name="F7" Click="F7_Click"></Button>
+        <Button Grid.Column="7" Grid.Row="1" Background="Black" Name="G7" Click="G7_Click"></Button>
+        <Button Grid.Column="8" Grid.Row="1" Background="White" Name="H7" Click="H7_Click"></Button>
+
+        <Button Grid.Column="1" Grid.Row="2" Background="White"></Button>
+        <Button Grid.Column="2" Grid.Row="2" Background="Black"></Button>
+        <Button Grid.Column="3" Grid.Row="2" Background="White"></Button>
+        <Button Grid.Column="4" Grid.Row="2" Background="Black"></Button>
+        <Button Grid.Column="5" Grid.Row="2" Background="White"></Button>
+        <Button Grid.Column="6" Grid.Row="2" Background="Black"></Button>
+        <Button Grid.Column="7" Grid.Row="2" Background="White"></Button>
+        <Button Grid.Column="8" Grid.Row="2" Background="Black"></Button>
+
+        <Button Grid.Column="1" Grid.Row="3" Background="Black"></Button>
+        <Button Grid.Column="2" Grid.Row="3" Background="White"></Button>
+        <Button Grid.Column="3" Grid.Row="3" Background="Black"></Button>
+        <Button Grid.Column="4" Grid.Row="3" Background="White"></Button>
+        <Button Grid.Column="5" Grid.Row="3" Background="Black"></Button>
+        <Button Grid.Column="6" Grid.Row="3" Background="White"></Button>
+        <Button Grid.Column="7" Grid.Row="3" Background="Black"></Button>
+        <Button Grid.Column="8" Grid.Row="3" Background="White"></Button>
+
+        <Button Grid.Column="1" Grid.Row="4" Background="White"></Button>
+        <Button Grid.Column="2" Grid.Row="4" Background="Black"></Button>
+        <Button Grid.Column="3" Grid.Row="4" Background="White"></Button>
+        <Button Grid.Column="4" Grid.Row="4" Background="Black"></Button>
+        <Button Grid.Column="5" Grid.Row="4" Background="White"></Button>
+        <Button Grid.Column="6" Grid.Row="4" Background="Black"></Button>
+        <Button Grid.Column="7" Grid.Row="4" Background="White"></Button>
+        <Button Grid.Column="8" Grid.Row="4" Background="Black"></Button>
+
+        <Button Grid.Column="1" Grid.Row="5" Background="Black"></Button>
+        <Button Grid.Column="2" Grid.Row="5" Background="White"></Button>
+        <Button Grid.Column="3" Grid.Row="5" Background="Black"></Button>
+        <Button Grid.Column="4" Grid.Row="5" Background="White"></Button>
+        <Button Grid.Column="5" Grid.Row="5" Background="Black"></Button>
+        <Button Grid.Column="6" Grid.Row="5" Background="White"></Button>
+        <Button Grid.Column="7" Grid.Row="5" Background="Black"></Button>
+        <Button Grid.Column="8" Grid.Row="5" Background="White"></Button>
+
+        <Button Grid.Column="1" Grid.Row="6" Background="White" Name="A2" Click="A2_Click"></Button>
+        <Button Grid.Column="2" Grid.Row="6" Background="Black" Name="B2" Click="B2_Click"></Button>
+        <Button Grid.Column="3" Grid.Row="6" Background="White" Name="C2" Click="C2_Click"></Button>
+        <Button Grid.Column="4" Grid.Row="6" Background="Black" Name="D2" Click="D2_Click"></Button>
+        <Button Grid.Column="5" Grid.Row="6" Background="White" Name="E2" Click="E2_Click"></Button>
+        <Button Grid.Column="6" Grid.Row="6" Background="Black" Name="F2" Click="F2_Click"></Button>
+        <Button Grid.Column="7" Grid.Row="6" Background="White" Name="G2" Click="G2_Click"></Button>
+        <Button Grid.Column="8" Grid.Row="6" Background="Black" Name="H2" Click="H2_Click"></Button>
+
+        <Button Grid.Column="1" Grid.Row="7" Background="Black" Name="A1" Click="A1_Click"></Button>
+        <Button Grid.Column="2" Grid.Row="7" Background="White" Name="B1" Click="B1_Click"></Button>
+        <Button Grid.Column="3" Grid.Row="7" Background="Black" Name="C1" Click="C1_Click"></Button>
+        <Button Grid.Column="4" Grid.Row="7" Background="White" Name="D1" Click="D1_Click"></Button>
+        <Button Grid.Column="5" Grid.Row="7" Background="Black" Name="E1" Click="E1_Click"></Button>
+        <Button Grid.Column="6" Grid.Row="7" Background="White" Name="F1" Click="F1_Click"></Button>
+        <Button Grid.Column="7" Grid.Row="7" Background="Black" Name="G1" Click="G1_Click"></Button>
+        <Button Grid.Column="8" Grid.Row="7" Background="White" Name="H1" Click="H1_Click"></Button>
+        
+        <Image  Grid.Column="1" Grid.Row="1" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_negro.png"></Image>
+        <Image  Grid.Column="2" Grid.Row="1" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_negro.png"></Image>
+        <Image  Grid.Column="3" Grid.Row="1" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_negro.png"></Image>
+        <Image  Grid.Column="4" Grid.Row="1" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_negro.png"></Image>
+        <Image  Grid.Column="5" Grid.Row="1" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_negro.png"></Image>
+        <Image  Grid.Column="6" Grid.Row="1" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_negro.png"></Image>
+        <Image  Grid.Column="7" Grid.Row="1" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_negro.png"></Image>
+        <Image  Grid.Column="8" Grid.Row="1" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_negro.png"></Image>
+
+        <Image  Grid.Column="1" Grid.Row="0" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\torre_negro.png"></Image>
+        <Image  Grid.Column="2" Grid.Row="0" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\caballo_negro.png"></Image>
+        <Image  Grid.Column="3" Grid.Row="0" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\alfil_negro.png"></Image>
+        <Image  Grid.Column="4" Grid.Row="0" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\reina_negra.png"></Image>
+        <Image  Grid.Column="5" Grid.Row="0" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\rey_negro.png"></Image>
+        <Image  Grid.Column="6" Grid.Row="0" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\alfil_negro.png"></Image>
+        <Image  Grid.Column="7" Grid.Row="0" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\caballo_negro.png"></Image>
+        <Image  Grid.Column="8" Grid.Row="0" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\torre_negro.png"></Image>
+
+        <Image  Grid.Column="1" Grid.Row="6" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_blanco.png"></Image>
+        <Image  Grid.Column="2" Grid.Row="6" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_blanco.png"></Image>
+        <Image  Grid.Column="3" Grid.Row="6" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_blanco.png"></Image>
+        <Image  Grid.Column="4" Grid.Row="6" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_blanco.png"></Image>
+        <Image  Grid.Column="5" Grid.Row="6" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_blanco.png"></Image>
+        <Image  Grid.Column="6" Grid.Row="6" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_blanco.png"></Image>
+        <Image  Grid.Column="7" Grid.Row="6" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_blanco.png"></Image>
+        <Image  Grid.Column="8" Grid.Row="6" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\peon_blanco.png"></Image>
+
+        <Image  Grid.Column="1" Grid.Row="7" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\torre_blanca.png"></Image>
+        <Image  Grid.Column="2" Grid.Row="7" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\caballo_blanco.png"></Image>
+        <Image  Grid.Column="3" Grid.Row="7" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\alfil_blanco.png"></Image>
+        <Image  Grid.Column="4" Grid.Row="7" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\reina_blanca.png"></Image>
+        <Image  Grid.Column="5" Grid.Row="7" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\rey_blanco.png"></Image>
+        <Image  Grid.Column="6" Grid.Row="7" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\alfil_blanco.png"></Image>
+        <Image  Grid.Column="7" Grid.Row="7" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\caballo_blanco.png"></Image>
+        <Image  Grid.Column="8" Grid.Row="7" Source="D:\Users\Marc\Documents\dam\m7\UF1\Practica_Events_Grids\imagenes\torre_blanca.png"></Image>
+    </Grid>
+</Window>
